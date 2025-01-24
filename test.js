@@ -63,21 +63,17 @@ printuserdata("seif",25,"cairo")
 
 document.writeln("<br>")
 /////////////////////
-function printdigitsum(num1){
+function printDigitSum() {
+   var userprompt;
+  var current=0
+    for(let x=0;x<3;x++){
+userprompt=+prompt("enter 3 numbers")
+current+=userprompt
 
-    let sum1=0
-    let current=num1
-    while (num1>=100||num1<=999,current>0)
-    {
-        sum1+=current%10
-        current=(current-current %10)/10
     }
-    document.writeln(sum1)  
-    
-}
+document.writeln(current)
+    }
 
-
-    
-printdigitsum(949)
+printDigitSum();
 
 
